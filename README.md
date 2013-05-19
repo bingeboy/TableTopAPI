@@ -22,15 +22,85 @@ Once you have the project running you can hit the server with XHR request to get
 
 <strong>Example Request
 <code>
- //Example 
- var xhReq = new XMLHttpRequest();
- xhReq.open("GET", "http://localhost:3000/stats/pc3d6", false);
- xhReq.send(null);
- var serverResponse = xhReq.responseText;
- console.log(serverResponse);
- </code>
+//Example 
+var xhReq = new XMLHttpRequest();
+xhReq.open("GET", "http://localhost:3000/stats/3d6", false);
+xhReq.send(null);
+var serverResponse = xhReq.responseText;
+console.log(serverResponse);
+</code>
+<strong>Example Respondse
+<code>
+[
+  [
+    "strength",
+    [
+      4,
+      1,
+      6
+    ],
+    11
+  ],
+  [
+    "dexterity",
+    [
+      6,
+      1,
+      5
+    ],
+    12
+  ],
+  [
+    "constitution",
+    [
+      4,
+      6,
+      4
+    ],
+    14
+  ],
+  [
+    "intelligence",
+    [
+      4,
+      1,
+      5
+    ],
+    10
+  ],
+  [
+    "wisdom",
+    [
+      4,
+      3,
+      1
+    ],
+    8
+  ],
+  [
+    "charisma",
+    [
+      1,
+      3,
+      5
+    ],
+    9
+  ]
+]
+</code>
+//TODO clean response code and add more data.
+
  
- 
+//TODO 
+Link to Gists of JSON... have prof now.
+Create calls for
+ - Create Charater Methods
+	 - Methods 1-5
+ - Alignment
+ - Classes (create short decrption)
+ - Races
+ - Roll init
+ - Some of the above files could use links to pull TRS synopsis. 	
 
  
  Project Goals:
