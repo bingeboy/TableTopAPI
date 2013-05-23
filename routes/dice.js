@@ -60,7 +60,7 @@ exports.hitpoints = function(req, res){
     //rolls
     var dice1d10 = diceToRollHP(1,10)
       , dice1d6  = diceToRollHP(1,6)
-      , dice1d6  = diceToRollHP(1,4);
+      , dice1d4  = diceToRollHP(1,4);
 
     switch (pcClass) {
         case "fighter":
