@@ -1,44 +1,111 @@
-var express = require('express');
+var express = require('express')
+      , url = require('url')
+      , common = require('./routes/common')
+      , dice = require('./routes/dice');
 
 var app = express();
 
-app.get('/wines', function(req, res) {
+app.use(express.bodyParser());
 
-    var data = {
-        race: ["Human", "Elf ", "Half-Elf", "Dwarf", "Gnome", "Halfling"],
-        playerClasses: ["Warrior", "Priest", "Rogue"],
-        alignment: ["Neutral Good", "Chaotic Good", "True Neutral", "Chaotic Neutral", "Neutral Evil", "Chaotic Evil"],
-        Stats: ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
-        languages:["goblish", "orcish","hobgoblish", "gnollish","common", "elvish", "halflingish","gnomish", "elvish", "treantish"]
-    };
 
-    res.send(data);
-});
+app.get('/languages', common.languages);
+app.get('/races', common.races);
+app.get('/alignment', common.alignment);
+app.get('/stats', common.stats);
+app.get('/playerClasses', common.playerClasses);
+
+app.get('/roll-hp/:pcClass', dice.hitpoints)
+
+//test for query.. refer to http://www.hacksparrow.com/express-js-tutorial.html
+//app.get('/:race'+'&test2='+':test2', function(req, res){
+//    console.log('this is the array being created' ,req.params);
+//    var x =  req.params;
+//    if(req.params[0] === 'race'){
+//        console.log('this is race you heard');
+//    }else{
+//        console.log('dupmped', req.params);
+//    }
+//    res.send(x);
+////    '/:test'+'&test2='+':test2'
+////    '
+//});
+
+
+//function dothing (){
+//  //  URL ideas
+//        ?rollmethod=1&3d6 //<-- get stats back
+//    rollmethod=2
+//    rollmethod=3
+//    rollmethod=4
+//    rollmethod=5
+//
+//        ?dice=3d20 <- d must have only have digits before it and after in 100 digits. Max of 10 on each side
+//        ?race=all
+//
+//        /*
+//         @Decription: All API Calls for Races
+//         */
+//
+//        ?race=all //return full json
+//        ?race=specific //return
+//
+//        /*
+//         @Decription: All API Calls for Races
+//         */
+//
+//        ?language=all // return all languages
+//
+//        /*
+//         @Decription: All API Calls for Races
+//         */
+//
+//        /*
+//         @Decription: All API Calls for Races
+//         */
+//        ?language=all // return all languages
+//
+//        /*
+//         @Decription: proficiencies
+//         */
+//        ?proficiencies=general <- there are like 5 of these.
+//
+//        /*
+//         @Decription: Saving Throws
+//         */
+////        Saving Throws will act like thest of the requests but may have prereqs on other rolls.
+//
+//}
+
+
 
 app.get('/stats/:sidedDie', function(req, res) {
+
     /*
      Description: var setup to spin through the stat api.
-     will split the values at the "d" then regex and parseInt();
-     Assign the values to the below vars and pass them into the init() function.
+                  will split the values at the "d" then regex and parseInt();
+                  Assign the values to the below vars and pass them into the init() function.
     */
-    var sidedDice
-      , numberOfDice
-      , reqInput = req.params.sidedDie
-      , cleanedData = req.params.sidedDie.split(/[.,\/ d]/);
+    Roll.api.init();
+    if(res.statusCode === 200){
+        var sidedDice
+            , numberOfDice
+            , cleanedData = req.params.sidedDie.split(/[.,\/ d]/);
 
-    sidedDice = parseInt(cleanedData[0]);
-    numberOfDice = parseInt(cleanedData[1]);
+        sidedDice = parseInt(cleanedData[0]);
+        numberOfDice = parseInt(cleanedData[1]);
 
-    console.log(sidedDice,numberOfDice);
-    res.send(Roll.api.init(sidedDice,numberOfDice));
-
-    //res.send({"Dice Rolled": req.params.sidedDie, "Landed On": singleDieRoll});
+        console.log(sidedDice,numberOfDice);
+        res.send(Roll.api.init(sidedDice,numberOfDice));
+    } else{
+        console.log("error: ", res.statusCode);
+    }
+    res.send({"Dice Rolled": req.params.sidedDie, "Landed On": singleDieRoll});
 });
 
 
-app.get('/stats', function(req, res) {
-    res.send([{name:'wine1'}, {name:'wine2'}]);
-});
+//app.get('/stats', function(req, res) {
+//    res.send([{name:'wine1'}, {name:'wine2'}]);
+//});
 
 var Roll = {};
 
@@ -51,6 +118,7 @@ Roll.api = (function(){
                 var singleDieRoll = 1 + Math.floor(Math.random() * sidedDie);
                 diceSet.push(singleDieRoll);
             }
+
             return diceSet
         }
     };
@@ -72,10 +140,25 @@ Roll.api = (function(){
         },
         rollTotal : function(x) {
             var total = 0;
+            var playableClasses
             for (var i = 0; i < x.length; i++) {
                 total += parseInt(x[i]);
             }
-            return total;
+            if(total >= 10){
+                playableClasses = {
+                    troll: "troll",
+                    troll2: "troll2"
+                }
+            }else{
+                playableClasses = {
+                    human: "troll",
+                    human2: "troll2"
+                }
+            }
+            return {
+                total: total,
+                classes: playableClasses
+            };
         },
         stats: function(diceRolls, diceTotal){
             return {
@@ -111,7 +194,7 @@ Roll.api = (function(){
     }; //return
 })();
 
-Roll.api.init();
+
 
 //app.get('/wines/:id', function(req, res) {
 //    console.log('reg here:', req)
