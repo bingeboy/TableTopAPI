@@ -10,12 +10,14 @@ Rest API for table top gaming, character creation, dice rolls
 <p>
  Providing simple REST API for Dice rolls.
 
-<h4>Method I Stat Rolls</h4>
+<h2>Method I Stat Rolls</h2>
 
-<h5>Method I:</h5>
+<h4>Method I:</h4>
 <p>
-Roll three six-sided dice (3d6); the total shown on the dice is your charac- ter’s Strength ability score. Repeat this for Dexterity, Constitution, Intelligence, Wis- dom, and Charisma, in that order. This method gives a range of scoresfrom 3 to 18, with most results in the 9 to 12 range. Only a few characters have high scores (15 and above),soyoushouldtreasurethesecharac-
-ters.
+Roll three six-sided dice (3d6); the total shown on the dice is your character’s Strength ability score.
+Repeat this for Dexterity, Constitution, Intelligence, Wis- dom, and Charisma, in that order.
+This method gives a range of scores from 3 to 18, with most results in the 9 to 12 range. Only a few characters
+have high scores (15 and above).
 
 
 <code>
