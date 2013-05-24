@@ -9,12 +9,54 @@ Rest API for table top gaming, character creation, dice rolls
 
 <p>
  Providing simple REST API for Dice rolls.
- 
- <h4>Currently Supports The Following</h4>
- <ul>
- <li>Ad&D 2.0 Method 1 Character Base Stats
- <li>Basic dice rolls. Example: 1d20, 10d6, 3d6, etc.
- </ul>
+
+<h4>Method I Stat Rolls</h4>
+
+<h5>Method I:</h5>
+<p>
+Roll three six-sided dice (3d6); the total shown on the dice is your charac- ter’s Strength ability score. Repeat this for Dexterity, Constitution, Intelligence, Wis- dom, and Charisma, in that order. This method gives a range of scoresfrom 3 to 18, with most results in the 9 to 12 range. Only a few characters have high scores (15 and above),soyoushouldtreasurethesecharac-
+ters.
+
+
+<code>
+/stats/3d6
+</code>
+
+ <h4>Calls For Basic Data Calls Array</h4>
+
+http://localhost:3000/roll-hp/mage 
+http://localhost:3000/roll-hp/
+
+Hit point rolls
+
+Array of languages 
+<code>
+'/languages'
+</code>
+
+Array of Races
+<code>
+'/races'
+</code>
+
+Alignment
+<code>
+'/alignment'
+</code>
+Stats
+<code>
+'/stats', common.stats);
+</code>
+
+Player Classes
+<code>
+'/playerClasses'
+</code>
+<code>
+'/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
+</code>
+Also running list of other that classes based on these 3main classes.
+
  
 <h2>Usage
 <p>
@@ -22,7 +64,7 @@ Once you have the project running you can hit the server with XHR request to get
 
 <strong>Example Request
 <code>
-//Example 
+://Example 
 var xhReq = new XMLHttpRequest();
 xhReq.open("GET", "http://localhost:3000/stats/3d6", false);
 xhReq.send(null);
@@ -88,21 +130,4 @@ console.log(serverResponse);
   ]
 ]
 </code>
-//TODO clean response code and add more data.
 
- 
-//TODO 
-Link to Gists of JSON... have prof now.
-Create calls for
- - Create Charater Methods
-	 - Methods 1-5
- - Alignment
- - Classes (create short decrption)
- - Races
- - Roll init
- - Some of the above files could use links to pull TRS synopsis. 	
-
- 
- Project Goals:
- <ul>
- <li>Provide 
