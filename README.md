@@ -24,6 +24,11 @@ have high scores (15 and above).
 /stats/3d6
 </code>
 
+Method II:Roll 3d6 twice, noting the total of each roll. Use whichever result you prefer for your character‘s Strength score. Repeat this for
+Dexterity, Constitution, Intelligence, Wisdom, and Charisma. This al- lows you to pick the best score from
+each pair, generally ensuring that your character does not have any really low ability scores
+(but low ability scores are not all that bad anyway).
+
  <h4>Calls For Basic Data Calls Array</h4>
 
 http://localhost:3000/roll-hp/mage 
@@ -133,3 +138,24 @@ console.log(serverResponse);
 ]
 </code>
 
+The MIT License (MIT)
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
