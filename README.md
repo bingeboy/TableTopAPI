@@ -24,7 +24,9 @@ have high scores (15 and above).
 /stats/3d6
 </code>
 
-Method II:Roll 3d6 twice, noting the total of each roll. Use whichever result you prefer for your character‘s Strength score. Repeat this for
+<h4>Method II:</h4>
+<p>
+Roll 3d6 twice, noting the total of each roll. Use whichever result you prefer for your character‘s Strength score. Repeat this for
 Dexterity, Constitution, Intelligence, Wisdom, and Charisma. This al- lows you to pick the best score from
 each pair, generally ensuring that your character does not have any really low ability scores
 (but low ability scores are not all that bad anyway).
