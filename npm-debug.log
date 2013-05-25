@@ -6,21 +6,21 @@
 3 info using node@v0.10.3
 4 verbose read json /Users/pizza/Dropbox/GitHub/TableTopAPI/package.json
 5 verbose run-script [ 'prestart', 'start', 'poststart' ]
-6 info prestart wine-cellar@0.0.1
-7 info start wine-cellar@0.0.1
+6 info prestart Tabletop@0.0.1
+7 info start Tabletop@0.0.1
 8 verbose unsafe-perm in lifecycle true
 9 silly exec sh "-c" "supervisor server.js"
 10 silly sh,-c,supervisor server.js,/Users/pizza/Dropbox/GitHub/TableTopAPI spawning
-11 info wine-cellar@0.0.1 Failed to exec start script
-12 error wine-cellar@0.0.1 start: `supervisor server.js`
+11 info Tabletop@0.0.1 Failed to exec start script
+12 error Tabletop@0.0.1 start: `supervisor server.js`
 12 error `sh "-c" "supervisor server.js"` failed with 8
-13 error Failed at the wine-cellar@0.0.1 start script.
-13 error This is most likely a problem with the wine-cellar package,
+13 error Failed at the Tabletop@0.0.1 start script.
+13 error This is most likely a problem with the Tabletop package,
 13 error not with npm itself.
 13 error Tell the author that this fails on your system:
 13 error     supervisor server.js
 13 error You can get their info via:
-13 error     npm owner ls wine-cellar
+13 error     npm owner ls Tabletop
 13 error There is likely additional logging output above.
 14 error System Darwin 12.3.0
 15 error command "/usr/local/Cellar/node/0.10.3/bin/node" "/usr/local/bin/npm" "start"

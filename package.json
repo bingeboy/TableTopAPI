@@ -1,6 +1,6 @@
 {
-    "name": "wine-cellar",
-    "description": "Wine Cellar Application",
+    "name": "Tabletop",
+    "description": "Tabletop DnD api",
     "version": "0.0.1",
     "private": true,
     "scripts":{
