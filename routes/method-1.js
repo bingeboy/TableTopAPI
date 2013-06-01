@@ -1,27 +1,83 @@
 /*
+Default Rolls for making PC's
+ */
+
+/*
+ @Description handles rolling methods for character creation - Method-2.
+ */
+
+exports.rollMethod2 = function(req, res){
+
+    var numberOfDice = 6
+        , sidedDice = 6;
+
+
+    var init = function (numberOfDice, sidedDice) {
+        console.log("here you go brother: ", numberOfDice, sidedDice);
+        /*
+         Create arrays for all the rolls that need to be displayed.
+         */
+        var statsLength = Object.keys(stats).length
+            , diceResults1 = []
+            , diceResults2 = []
+            , finalStatArray = []
+            , statTotal1 = []
+            , statTotal2 = [];
+
+        for(var i = 0 ; i < statsLength; i++){
+            var roll = diceToRoll(numberOfDice, sidedDice);
+            //this is where the issue is, the roll array needs to be split properly
+            if(i < (statsLength/2)){
+                console.log("This is I", i, roll, roll[i]);
+                diceResults1.push(roll);
+                statTotal1.push(addDiceRolls(roll));
+            }else{
+                diceResults2.push(roll);
+                statTotal2.push(addDiceRolls(roll));
+            }
+        }
+
+        console.log("one", statTotal1);
+        console.log("two", statTotal2);
+
+//        for(var y = 0; y < statTotal.length; y++){
+//            finalStatArray.push(statsMin[y] + " : " + statTotal[y]);
+//        }
+
+        /*
+         @Description: Send final stat tallies and all the dice rolls.
+         */
+//        res.send(["Charater Stats: ", [finalStatArray], ["Dice Roll sets: ", diceResults1, diceResults2]]);
+    };
+    init(numberOfDice, sidedDice); //todo make this into a object literal
+
+};
+
+
+/*
     @Description handles rolling methods for character creation methods.
       - Method-1.
  */
 
-
-
 exports.rollMethod1 = function(req, res){
 
-     var sidedDice = 6
-       , numberOfDice = 3
+    var numberOfDice = 3
+        , sidedDice = 6;
 
-    , init = function (sidedDice, numberOfDice) {
 
+    var init = function (numberOfDice, sidedDice) {
+
+        /*
+         Create arrays for all the rolls that need to be displayed.
+         */
         var statsLength = Object.keys(stats).length
         , diceResults = []
         , finalStatArray = []
         , statTotal = [];
 
         for(var i = 0 ; i < statsLength; i++){
-            var roll = diceToRoll(3, 6); //hardcoded vars above.
-            var rolledTotal = rollTotal(roll);
+            var roll = diceToRoll(numberOfDice, sidedDice);
             diceResults.push(roll);
-
             /*
                @Description: The below will take each die roll from current array and then add the values together and push
                total to a new array.
@@ -38,38 +94,13 @@ exports.rollMethod1 = function(req, res){
         */
         res.send(["Charater Stats: ", [finalStatArray], ["Dice Rolls: ", diceResults]]);
     };
-    init(); //todo make this into a object literal
+    init( numberOfDice, sidedDice); //todo make this into a object literal
 
 };
 
 /*
     Description: these are all helper functions for the main method1 extend function.
  */
-
-// todo move this to another spot on file or even better a differnt file. maybe something like routes/helperfunc. - JPM
-function rollTotal(x) {
-    var total = 0
-        , playableClasses;
-
-    for (var i = 0; i < x; i++) {
-        total += parseInt(x[i]);
-    }
-    if(total >= 10){
-        playableClasses = {
-            troll: "troll",
-            troll2: "troll2"
-        }
-    }else{
-        playableClasses = {
-            human: "troll",
-            human2: "troll2"
-        }
-    }
-    return {
-        total: total,
-        classes: playableClasses
-    };
-}
 
 function diceToRoll(numberOfRolls, sidedDie) {
     var diceSet = [];

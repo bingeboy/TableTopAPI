@@ -52,6 +52,8 @@ function comparisonCheck(stat, statValue){
 //    "wisdom"          stat[4]  statValue[4]
 //    "charisma"        stat[5]  statValue[5]
 
+//todo Devise cleaner method here. - JPM
+
 
     console.log("You can be a");
 

@@ -21,7 +21,7 @@ have high scores (15 and above).
 
 
 <code>
-/stats/3d6
+/method1
 </code>
 
 <h4>Method II:</h4>
@@ -36,7 +36,16 @@ each pair, generally ensuring that your character does not have any really low a
 http://localhost:3000/roll-hp/mage 
 http://localhost:3000/roll-hp/
 
-Hit point rolls
+<h4>Other API Calls</h4>
+
+<h6>/player</h6>
+Rolls method I then lets you know what classes are playable with the rolls.
+<pre>
+http://localhost:2001/player
+</pre>
+
+
+<h6>Hit point rolls</h6>
 
 Array of languages 
 <code>

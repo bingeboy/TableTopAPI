@@ -17,10 +17,16 @@ app.get('/stats', common.stats);
 app.get('/playerClasses', common.playerClasses);
 app.get('/roll-hp/:pcClass', dice.hitpoints);
 
-// Method II
-app.get('/method2', function(req, res) {
-    res.send('boom');
-});
+/*
+
+   Method II
+
+   @description: Method II rolls 3d6 twice for each score,
+   and assigns the best of the two totals to that score,
+   in the same order.
+
+  */
+app.get('/method2', method1.rollMethod2);
 
 // Method I
 app.get('/method1', method1.rollMethod1);
