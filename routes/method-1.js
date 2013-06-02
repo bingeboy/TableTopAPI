@@ -2,20 +2,22 @@
  @Description: Default Rolls for making Player Characters
  */
 
+
+/*
+  @Globals: setup the character creation dice to roll. Override if needed.
+ */
+var numberOfDice = 3
+    , sidedDice = 6;
+
+
 /*
  @Description handles rolling methods for character creation - Method-2.
  */
 exports.rollMethod2 = function(req, res){
 
-    //setup the dice to roll
-    var numberOfDice = 3
-        , sidedDice = 6;
-
-
     var init = function (numberOfDice, sidedDice) {
-
         // declare vars scoped to init();
-        var statsLength = Object.keys(stats).length
+        var statsLength = statsMin.length
             , statsFinal = []
             , obj
             , flushedRollResponse
@@ -50,46 +52,36 @@ exports.rollMethod2 = function(req, res){
 
 exports.rollMethod1 = function(req, res){
 
-    var numberOfDice = 3
-        , sidedDice = 6;
-
-
     var init = function (numberOfDice, sidedDice) {
+        var statsLength = statsMin.length
+            , statsFinal = []
+            , obj
+            , flushedRollResponse
+            , totalRollSets = 1; //value for the number of sets of dice to roll example : [6,4,3] <= single set.
 
-        /*
-         Create arrays for all the rolls that need to be displayed.
-         */
-        var statsLength = Object.keys(stats).length
-        , diceResults = []
-        , finalStatArray = []
-        , statTotal = [];
+        var makeRollSets = rollSet(totalRollSets, statsLength, numberOfDice, sidedDice); //todo pass in an obj instead of all these params
 
-        for(var i = 0 ; i < statsLength; i++){
-            var roll = diceToRoll(numberOfDice, sidedDice);
-            diceResults.push(roll);
-            /*
-               @Description: The below will take each die roll from current array and then add the values together and push
-               total to a new array.
-            */
-            statTotal.push(addDiceRolls(roll));
+        var makeRollSize = getObjectSize(makeRollSets);
+        console.log("Roll Sets", makeRollSets);
+
+        //Loop through all the roll sets and push the largest to statsFinal
+        for (var i = 0; i < makeRollSize; i++) {
+            statsFinal.push(getLargestInArray(makeRollSets[i]));
         }
 
-        for(var y = 0; y < statTotal.length; y++){
-            finalStatArray.push(statsMin[y] + " : " + statTotal[y]);
-        }
+        //create object with stats
+        obj = merge2array(statsMin, statsFinal);
+        flushedRollResponse = { "Method I Character Rolls": obj };
 
-        /*
-           @Description: Send final stat tallies and all the dice rolls.
-        */
-        res.send(["Charater Stats: ", [finalStatArray], ["Dice Rolls: ", diceResults]]);
+        res.send(flushedRollResponse);
     };
     init( numberOfDice, sidedDice); //todo make this into a object literal
 
 };
 
 /*
-    Description: these are all helper functions for the main method1 extend function.
- */
+ @Description: these are all helper functions for the main method1 extend function.
+*/
 
 function diceToRoll(numberOfRolls, sidedDie) {
     var diceSet = [];
@@ -101,11 +93,9 @@ function diceToRoll(numberOfRolls, sidedDie) {
 }
 
 /*
-  Description: adds the rolls passed in together and push to new array;
+  @Description: adds the rolls passed in together and push to new array;
 */
-
 function addDiceRolls(roll){
-
     var ii
         , max
         , statTotal = [];
@@ -115,38 +105,9 @@ function addDiceRolls(roll){
     return statTotal
 }
 
-
 /*
-  Description: Stats obj, consider reducing this and bringing it in a cleaner method.
+  @Description: Stats obj, consider reducing this and bringing it in a cleaner method.
 */
-
-var stats = {
-    "strength"  : {
-        "rolls" : "",
-        "total" : ""
-    },
-    "dexterity"  : {
-        "rolls" : "",
-        "total" : ""
-    },
-    "constitution": {
-        "rolls" : "",
-        "total" : ""
-    },
-    "intelligence"  : {
-        "rolls" : "",
-        "total" : ""
-    },
-    "wisdom" : {
-        "rolls" : "",
-        "total" : ""
-    },
-    "charisma"  : {
-        "rolls" : "",
-        "total" : ""
-
-    }
-};
 
 var statsMin = [
     "strength",
@@ -162,11 +123,11 @@ var statsMin = [
 */
 function merge2array(a, b) {
     var obj = {};
-    var lengthOfAccociate = a.length;
+    var lengthOfAccociated = a.length;
     var i;
 
-    if(lengthOfAccociate === b.length){
-        for (i = 0; i < lengthOfAccociate; i++) {
+    if(lengthOfAccociated === b.length){
+        for (i = 0; i < lengthOfAccociated; i++) {
             obj[a[i]] = b[i];
         }
     }else{
@@ -175,7 +136,6 @@ function merge2array(a, b) {
           message: "Lengths of arrays do not match"
         }
     }
-
 
     return obj;
 }
@@ -207,7 +167,12 @@ function rollSet(totalRollSets, statsLength, numberOfDice, sidedDice){
 
     //create an object of with both roll sets
     for (i = 0; i < statTotal.length; i++) {
-        obj[i] = [statTotal[i], statTotal1[i]];
+        if(typeof statTotal1[i] !== 'undefined'){
+            obj[i] = [statTotal[i], statTotal1[i]];
+        }else{
+            obj[i] = [statTotal[i]];
+        }
+
     }
 
     return obj;
