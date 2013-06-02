@@ -31,18 +31,31 @@ Dexterity, Constitution, Intelligence, Wisdom, and Charisma. This al- lows you t
 each pair, generally ensuring that your character does not have any really low ability scores
 (but low ability scores are not all that bad anyway).
 
- <h4>Calls For Basic Data Calls Array</h4>
+<code>
+/method2
+</code>
 
-http://localhost:3000/roll-hp/mage 
-http://localhost:3000/roll-hp/
+
+ <h4>Calls For Basic Character Info</h4>
+
+Roll for Hit Points.
+Options specific for class. Note appending max will automatically return the max HP value for the class in the call.
+
+<code>
+/roll-hp/mage
+ </code>
+
+/roll-hp/
+
+Max example:
 
 <h4>Other API Calls</h4>
 
 <h6>/player</h6>
 Rolls method I then lets you know what classes are playable with the rolls.
-<pre>
-http://localhost:2001/player
-</pre>
+<code>
+/player
+</code>
 
 
 <h6>Hit point rolls</h6>
