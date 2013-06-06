@@ -17,13 +17,17 @@ app.get('/stats', common.stats);
 app.get('/playerClasses', common.playerClasses);
 app.get('/roll-hp/:pcClass', dice.hitpoints);
 
-/*
-   Method II
-  */
-app.get('/method2', rollMethod.rollMethod2);
-
 // Method I
 app.get('/method1', rollMethod.rollMethod1);
+
+//Method II
+app.get('/method2', rollMethod.rollMethod2);
+
+//Method III
+app.get('/method3', rollMethod.rollMethod3);
+
+//Method IV
+app.get('/method4', rollMethod.rollMethod4);
 
 // Player Character
 app.get('/player', playerCharacter.playerCharacterRequirements);

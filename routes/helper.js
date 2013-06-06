@@ -38,38 +38,44 @@ exports.merge2array = function (a, b) {
 /*
  @Description: Create roll sets.
  */
-exports.rollSet = function (totalRollSets, statsLength, numberOfDice, sidedDice) {
+exports.rollSet = function (totalRollSets, statsLength, rolls, numberOfDice, sidedDice) {
 
     var rollSets
-        , temp = []
-        , statTotal = []
-        , statTotal1 = []
-        , obj = {};
+        , statSetTotal = []
+        , statTotal = [];
+
     for (rollSets = 0; rollSets < totalRollSets; rollSets++) {
-        //create rolls, roll totals, and push
-        for (var i = 0; i < statsLength; i++) {
-            var roll = exports.diceToRoll(numberOfDice, sidedDice);
-            if (rollSets === 0) {
-                temp = parseInt(exports.addDiceRolls(roll));
-                statTotal.push(temp);
-            } else if (rollSets === 1) {
-                temp = parseInt(exports.addDiceRolls(roll));
-                statTotal1.push(temp);
-            }
-        }
+        makeRollSet(rollSets, rolls, numberOfDice, sidedDice);//call the private function.
     }
 
-    //create an object of with both roll sets
-    for (i = 0; i < statTotal.length; i++) {
-        if (typeof statTotal1[i] !== 'undefined') {
-            obj[i] = [statTotal[i], statTotal1[i]];
-        } else {
-            obj[i] = [statTotal[i]];
+    //create an object for the rollsets with the an array of the dice rolled per set
+    function makeRollSet(rollSets, rolls, numberOfDice, sidedDice){
+        for (var i = 0; i < rolls; i++) {
+        //roll returns an array ex. [ 1, 2, 4 ]
+        var roll = exports.diceToRoll(numberOfDice, sidedDice);
+            statTotal[i] = {
+                'rollSets': rollSets,
+                'diceRolls': roll,
+                'diceTotal': exports.addDiceRolls(roll)
+            };
+            statSetTotal.push(statTotal[i]);
+            console.log(statSetTotal);
         }
 
     }
 
-    return obj;
+    return statSetTotal;
+};
+
+//array splitter  params = (arrayName, split Into X arrays)
+exports.split = function (a, n) {
+    var len = a.length, out = [], i = 0;
+    while (i < len) {
+        var size = Math.ceil((len - i) / n--);
+        out.push(a.slice(i, i + size));
+        i += size;
+    }
+    return out;
 };
 
 // return the largest value in the array
@@ -78,7 +84,7 @@ exports.getLargestInArray = function (array) {
 };
 
 /*
- @Description: these are all helper functions for the main method1 extend function.
+ @Description: Rolls dice
  */
 
 exports.diceToRoll = function diceToRoll(numberOfRolls, sidedDie) {
