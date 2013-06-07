@@ -1,0 +1,261 @@
+[
+    {
+        "misc": "", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Animal Lore"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -2 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Armourer "
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Armourer, Crude"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Awareness"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " NA ", 
+        "points": 2, 
+        "stat": "NA", 
+        "type": "Blind-Fighting "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Bowyer/Fletcher"
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Bowyer/Fletcher, Crude "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Camouflage "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " +2 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Charioteering"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Close-quarters Fighting"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Display Weapon Prowess "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "CONSTITUTION", 
+        "type": "Endurance"
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": " -2 ", 
+        "points": 2, 
+        "stat": "CHARISMA", 
+        "type": "Horde Summoning"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Hunting"
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": " NA ", 
+        "points": 1, 
+        "stat": "NA", 
+        "type": "Iaijutsu "
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": " Sp.", 
+        "points": 1, 
+        "stat": "STR/CHA ", 
+        "type": "Intimidation "
+    }, 
+    {
+        "misc": "Pn", 
+        "modifier": " +2 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Jousting "
+    }, 
+    {
+        "misc": "Pn", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Law"
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Leadership "
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "CONSTITUTION", 
+        "type": "Light Sleeping "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " NA ", 
+        "points": 1, 
+        "stat": "NA", 
+        "type": "Mountaineering "
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": " +1 ", 
+        "points": 2, 
+        "stat": "STRENGTH", 
+        "type": "Natural Fighting "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -2 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Navigation "
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": " +2 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Riding, Horse Spec."
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": " +2 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Riding, Camel Spec."
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -6 ", 
+        "points": 1, 
+        "stat": "CONSTITUTION", 
+        "type": "Running"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Set Snares "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": " -2 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Spelunking "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Style Analysis "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Survival "
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Tactics"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Tracking "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": "0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Trail Marking"
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": " -1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Trail Signs"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " -3 ", 
+        "points": 3, 
+        "stat": "INTELLIGENCE", 
+        "type": "Weaponsmithing "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": " -3 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Weaponsmithing, Crude"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": "0 ", 
+        "points": 2, 
+        "stat": "CONSTITUTION", 
+        "type": "Wild Fighting"
+    }
+]

@@ -1,0 +1,303 @@
+[
+    {
+        "misc": "SM", 
+        "modifier": "-3 ", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Alchemy "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Ancient History"
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-2 ", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Anatomy"
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-3 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Arcanology "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Astrology"
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Bookbinding "
+    }, 
+    {
+        "misc": "CS", 
+        "modifier": " 0 ", 
+        "point": "2", 
+        "stat": "DEXTERITY ", 
+        "type": "Clockwork Creation "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-2 ", 
+        "point": "2", 
+        "stat": "WISDOM ", 
+        "type": "Concentration "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-3 ", 
+        "point": "1", 
+        "stat": "WISDOM ", 
+        "type": "Dowsing "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-3", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Engineering"
+    }, 
+    {
+        "misc": "Ch", 
+        "modifier": "-2 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Future History "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "point": "2", 
+        "stat": "DEXTERITY ", 
+        "type": "Gem Cutting"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Genie Lore "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "DEXTERITY ", 
+        "type": "Glassblowing "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Herbalism"
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-2 ", 
+        "point": "1", 
+        "stat": "CHARISMA ", 
+        "type": "Hypnotism "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Languages, Ancient "
+    }, 
+    {
+        "misc": "Ch", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Languages, Future"
+    }, 
+    {
+        "misc": " SM", 
+        "modifier": " -1", 
+        "point": "1", 
+        "stat": "WISDOM ", 
+        "type": "Mental Resistance "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Navigation "
+    }, 
+    {
+        "misc": "CN", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Necrology"
+    }, 
+    {
+        "misc": "CN", 
+        "modifier": "-3 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Netherworld Knowledge"
+    }, 
+    {
+        "misc": "CS", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Numeracy "
+    }, 
+    {
+        "misc": "CS", 
+        "modifier": " 0 ", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Numerology "
+    }, 
+    {
+        "misc": " SM", 
+        "modifier": " -2", 
+        "point": "1", 
+        "stat": "WISDOM ", 
+        "type": "Omen Reading "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Papermaking "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Planology"
+    }, 
+    {
+        "misc": " SM", 
+        "modifier": " -1", 
+        "point": "1", 
+        "stat": "DEXTERITY ", 
+        "type": "Prestidigitation "
+    }, 
+    {
+        "misc": "Ch", 
+        "modifier": "-1 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Prophecy "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+1", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Reading/Writing"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Religion "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Research "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-2 ", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Sage Knowledge  "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "+1 ", 
+        "point": "1", 
+        "stat": "DEXTERITY ", 
+        "type": "Scribe "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Sorcerous Duelling "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Spellcraft "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": "-5 ", 
+        "point": "2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Spell Recovery "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-4 ", 
+        "point": "2", 
+        "stat": "CHARISMA", 
+        "type": "Spirit Lore"
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-1 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Tactics of Magic "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": "-2 ", 
+        "point": "1", 
+        "stat": "INTELLIGENCE", 
+        "type": "Thaumaturgy "
+    }, 
+    {
+        "misc": "Ch", 
+        "modifier": "-2 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Time Sense "
+    }, 
+    {
+        "misc": "CN", 
+        "modifier": "-2 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Venom Handling "
+    }, 
+    {
+        "misc": "CS", 
+        "modifier": " 0 ", 
+        "point": "1", 
+        "stat": "WISDOM", 
+        "type": "Undead Knowledge "
+    }
+]

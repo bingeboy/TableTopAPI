@@ -1,0 +1,1834 @@
+[
+    {
+        "class": "G ", 
+        "misc": "CB", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Acting "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Administration "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-3", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Alchemy "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CT", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Alertness"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA ", 
+        "type": "Alms "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Anatomy"
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Arcanology "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Agriculture"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "-2", 
+        "points": "1 or 2", 
+        "stat": "INT", 
+        "type": "Ancient Geography"
+    }, 
+    {
+        "class": "P,R,Wz", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Ancient History"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Animal Handling"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Animal Lore"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "CT", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Animal Noise "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Bb", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Animal Rending "
+    }, 
+    {
+        "class": "G ", 
+        "misc": " ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Animal Training"
+    }, 
+    {
+        "class": "R ", 
+        "misc": " ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Appraising "
+    }, 
+    {
+        "class": "W ", 
+        "misc": " ", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Armourer "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Bb", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Armourer, Crude"
+    }, 
+    {
+        "class": "G ", 
+        "misc": " ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Artistic Ability "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Assimilation "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Astrology"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Athletics"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Awareness"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Bartering"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Begging"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Blacksmithing"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": "NA", 
+        "points": "2 ", 
+        "stat": "NA ", 
+        "type": "Blind-Fighting "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CT", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Boating"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Dw", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Boatwright "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Bookbinding  "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Bowyer/Fletcher"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Bb", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Bowyer/Fletcher, Crude "
+    }, 
+    {
+        "class": "P,R ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Bureaucracy"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Brewing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Calligraphy"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "CR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Camouflage "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Carpentry"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SS", 
+        "modifier": "-2/0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Cartography"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SS", 
+        "modifier": "var.", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Caving "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Ceremony "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CB", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Chanting "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "PW", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Chaos Shaping"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Charioteering"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Cheesemaking "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Chicanery"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "City Familiarity "
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "CS", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Clockwork Creation "
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Close-quarters Fighting"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Bb", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Clothesmaking, Crude "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Cobbling "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Concentration "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SS", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Concocting "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Cooking"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CB", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Craft Instrument "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CB", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Crowd Working"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Dancing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": "+1", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Danger Sense "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Debate "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Detect Signing "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Pn", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Diagnostics"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Diplomacy "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Direction Sense"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Disguise "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Display Weapon Prowess "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Distance Sense "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Dowsing "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "-1", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Dream Interpretation "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CON", 
+        "type": "Drinking "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CON", 
+        "type": "Eating "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Enamour"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "CON", 
+        "type": "Endurance"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "", 
+        "modifier": "-3", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Engineering"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Escape "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Etiquette"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CR", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Falconry "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Fast-Talking "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Feign/Detect Sleep "
+    }, 
+    {
+        "class": "G ", 
+        "misc": " ", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Fire-Building"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Fishing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Flower Arranging "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Sh", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Foraging "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Forgery"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "+2", 
+        "points": "2 ", 
+        "stat": "CHA", 
+        "type": "Fortune Telling"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Dw", 
+        "modifier": "+3", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Fungi Recognition"
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "Ch", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Future History "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Gaming "
+    }, 
+    {
+        "class": "Ps,R,Wz ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Gem Cutting"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Genie Lore "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Sh", 
+        "modifier": "-1", 
+        "points": "1 or 2", 
+        "stat": "INT", 
+        "type": "Geography"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Giant Kit Flying "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Glassblowing  "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Grooming "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Haggling "
+    }, 
+    {
+        "class": "Ps", 
+        "misc": "Ps", 
+        "modifier": "-1", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Harness Subconscious "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Healing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Heraldry "
+    }, 
+    {
+        "class": "P,R,Wz", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Herbalism"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": "-1", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Hiding "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CON", 
+        "type": "Hold Breath"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Bb", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "CHA", 
+        "type": "Horde Summoning"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Hunting"
+    }, 
+    {
+        "class": "Ps", 
+        "misc": "Ps", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Hypnosis "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Hypnotism  "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "OA", 
+        "modifier": "NA", 
+        "points": "1 ", 
+        "stat": "NA ", 
+        "type": "Iaijutsu "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Information Gathering"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "1 ", 
+        "stat": "STR/CHA", 
+        "type": "Intimidation "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": " -2 ", 
+        "points": "1 ", 
+        "stat": "INT ", 
+        "type": "Investigation  "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Pn", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Jousting "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Juggling "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Jumping"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Landscape Gardening"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Languages, Ancient "
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "Ch", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Languages, Future"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Languages, Modern"
+    }, 
+    {
+        "class": "P,W ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Law"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Bb", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Leadership "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Leather Working"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Bb", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CON", 
+        "type": "Light Sleeping "
+    }, 
+    {
+        "class": "P,R ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Local History"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Locksmithing "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Looting"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Masseur"
+    }, 
+    {
+        "class": "Ps", 
+        "misc": "Ps", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Meditative Focus "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Sh", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Medium "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": " WIS", 
+        "type": "Mental Resistance  "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AQ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Metalworking "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "GR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Military Science "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-3", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Mining "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": "NA", 
+        "points": "1 ", 
+        "stat": "NA ", 
+        "type": "Mountaineering "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Musical Instrument "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "CH", 
+        "modifier": "+1", 
+        "points": "2 ", 
+        "stat": "STR", 
+        "type": "Natural Fighting "
+    }, 
+    {
+        "class": "P,R,W,Wz", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Navigation "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "CN", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Necrology"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "CN", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Netherworld Knowledge"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Night Vision "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Noh"
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "CS", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Numeracy "
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "CS", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Numerology "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CT", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Observation"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Omen Interpretation"
+    }, 
+    {
+        "class": "P,Wz ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": " WIS", 
+        "type": "Omen Reading "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Oratory"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Origami"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SP", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Painting "
+    }, 
+    {
+        "class": "P,Wz ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": " INT", 
+        "type": "Papermaking  "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Persuasion "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Dw", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Pest Control "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Philosophy "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "PW", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Planar Direction Sense "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "PW", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Planar Sense "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "PW", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Planar Survival"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "PW", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Planology"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Poetry "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "GR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Politics "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Pottery"
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Prestidigitation  "
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "Ch", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Prophecy "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SS", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Prophecy "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "-3", 
+        "points": "2 ", 
+        "stat": "Var. ", 
+        "type": "Quick Study"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Reading Lips "
+    }, 
+    {
+        "class": "P,Ps,R,Wz ", 
+        "misc": "", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Reading/Writing"
+    }, 
+    {
+        "class": "Ps", 
+        "misc": "Ps", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Rejuvenation "
+    }, 
+    {
+        "class": "P,Ps,Wz ", 
+        "misc": " ", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Religion "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Research  "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "GR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Rhetoric "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Riding, Airborne "
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "AQ", 
+        "modifier": "+2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Riding, Camel Spec."
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "AQ", 
+        "modifier": "+2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Riding, Horse Spec."
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "+3", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Riding, Land-based "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CR", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "DEX", 
+        "type": "Riding, Sea-based"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Rope Use "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Rowing "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": "-6", 
+        "points": "1 ", 
+        "stat": "CON", 
+        "type": "Running"
+    }, 
+    {
+        "class": "P,Wz ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Sage Knowledge "
+    }, 
+    {
+        "class": "P,Wz ", 
+        "misc": "SM", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Scribe "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "SP", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Sculpting"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Seamanship "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Seamstress/Tailor"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Set Snares "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "+1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Shamanistic Ritual "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Sign Language"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CR", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Signalling "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Silk Making"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "CHA", 
+        "type": "Singing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "NA", 
+        "points": "1 ", 
+        "stat": "NA ", 
+        "type": "Slow Respiration "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Smelting "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Bb", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Soothsaying"
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Sorcerous Duelling "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Sound Analysis "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "CHA", 
+        "type": "Sound Imitation"
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Spellcraft "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "PW", 
+        "modifier": "-5", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Spell Recovery "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "CR", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Spelunking "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "CN", 
+        "modifier": "-4", 
+        "points": "2 ", 
+        "stat": "CHA", 
+        "type": "Spirit Lore"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Spirit Lore"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Stonemasonry "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "Nj", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Style Analysis "
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Survival "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "STR", 
+        "type": "Swimming "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "AH", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Tactics"
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Tactics of Magic "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Tattooing"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "OA", 
+        "modifier": "-2", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Tea Ceremony "
+    }, 
+    {
+        "class": "Wz ", 
+        "misc": "SM", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Thaumaturgy "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Tightrope Walking"
+    }, 
+    {
+        "class": "Wz", 
+        "misc": "Ch", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Time Sense "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "INT", 
+        "type": "Toxicology "
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "WIS", 
+        "type": "Tracking "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Trailing "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "CR", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Trail Marking"
+    }, 
+    {
+        "class": "R,W ", 
+        "misc": "CR", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Trail Signs"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "Sh", 
+        "modifier": "-3", 
+        "points": "2 ", 
+        "stat": "CON", 
+        "type": "Trance "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Tumbling "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "CS", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Undead Knowledge "
+    }, 
+    {
+        "class": "P ", 
+        "misc": "SM", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Undead Lore"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Underclass "
+    }, 
+    {
+        "class": "P,Wz", 
+        "misc": "CN", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Venom Handling "
+    }, 
+    {
+        "class": "R ", 
+        "misc": "", 
+        "modifier": "-2", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Ventriloquism"
+    }, 
+    {
+        "class": "P ", 
+        "misc": "CR", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Vetinary Healing "
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CT", 
+        "modifier": "Sp. ", 
+        "points": "2 ", 
+        "stat": "CHA", 
+        "type": "Voice Mimicry"
+    }, 
+    {
+        "class": "R ", 
+        "misc": "Nj", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Water Walking"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "Bb", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Weapon Improvisation "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "", 
+        "modifier": "-3", 
+        "points": "3 ", 
+        "stat": "INT", 
+        "type": "Weaponsmithing "
+    }, 
+    {
+        "class": "W ", 
+        "misc": "CR", 
+        "modifier": "-3", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Weaponsmithing, Crude"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "WIS", 
+        "type": "Weather Sense"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "", 
+        "modifier": "-1", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Weaving"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CB", 
+        "modifier": "+2", 
+        "points": "1 ", 
+        "stat": "DEX", 
+        "type": "Whistling/Humming"
+    }, 
+    {
+        "class": "W ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "2 ", 
+        "stat": "CON", 
+        "type": "Wild Fighting"
+    }, 
+    {
+        "class": "G ", 
+        "misc": "CH", 
+        "modifier": " 0", 
+        "points": "1 ", 
+        "stat": "INT", 
+        "type": "Winemaking "
+    }
+]

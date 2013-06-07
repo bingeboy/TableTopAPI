@@ -1,0 +1,716 @@
+[
+    {
+        "misc": "CB", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Acting "
+    }, 
+    {
+        "misc": "Sh", 
+        "modifier": "+1", 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Alertness"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Agriculture"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Animal Handling"
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": "+2", 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Animal Rending "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Animal Training"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Artistic Ability "
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Athletics"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Begging"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Blacksmithing"
+    }, 
+    {
+        "misc": "SP", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Boat Piloting"
+    }, 
+    {
+        "misc": "Sh", 
+        "modifier": "+1", 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Boating"
+    }, 
+    {
+        "misc": "Dw", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Boatwright "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Brewing"
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Calligraphy"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Carpentry"
+    }, 
+    {
+        "misc": "SS", 
+        "modifier": "-2/0", 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Cartography"
+    }, 
+    {
+        "misc": "SS", 
+        "modifier": "var.", 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Caving "
+    }, 
+    {
+        "misc": "CB", 
+        "modifier": "+2", 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Chanting "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Chaos Shaping"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Cheesemaking "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "City Familiarity "
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Clothesmaking, Crude "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Cobbling "
+    }, 
+    {
+        "misc": "SS", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Concocting "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Cooking"
+    }, 
+    {
+        "misc": "CB", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Craft Instrument "
+    }, 
+    {
+        "misc": "CB", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Crowd Working"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Dancing"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": "+1", 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Danger Sense "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Debate "
+    }, 
+    {
+        "misc": "SP", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Deep Diving"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+1", 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Direction Sense"
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Distance Sense "
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CONSTITUTION", 
+        "type": "Drinking "
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CONSTITUTION", 
+        "type": "Eating "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Etiquette"
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Falconry "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Fire-Building"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Fishing"
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Flower Arranging "
+    }, 
+    {
+        "misc": "Sh", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Foraging "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+2", 
+        "point": 2, 
+        "stat": "CHARISMA", 
+        "type": "Fortune Telling"
+    }, 
+    {
+        "misc": "Dw", 
+        "modifier": "+3", 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Fungi Recognition"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Gaming "
+    }, 
+    {
+        "misc": "Sh", 
+        "modifier": -1, 
+        "point": "1/2", 
+        "stat": "INTELLIGENCE", 
+        "type": "Geography"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": 0, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Haggling "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Heraldry "
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": -1, 
+        "point": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Hiding "
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Landscape Gardening"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Languages, Modern"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Leather Working"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Looting"
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Masseur"
+    }, 
+    {
+        "misc": "Sh", 
+        "modifier": 0, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Medium "
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Metalworking "
+    }, 
+    {
+        "misc": "GR", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Military Science "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -3, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Mining "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Musical Instrument "
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Noh"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Observation"
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Oratory"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Orienteering "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Origami"
+    }, 
+    {
+        "misc": "SP", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Painting "
+    }, 
+    {
+        "misc": "SM", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Persuasion "
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Philosophy "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": "+1", 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Planar Direction Sense "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Planar Sense "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Planar Survival"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Poetry "
+    }, 
+    {
+        "misc": "GR", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Politics "
+    }, 
+    {
+        "misc": "PW", 
+        "modifier": "-3/-5", 
+        "point": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Portal Feel"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Pottery"
+    }, 
+    {
+        "misc": "SS", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Prophecy "
+    }, 
+    {
+        "misc": "GR", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Rhetoric "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Riding, Airborne "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+3", 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Riding, Land-based "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Riding, Sea-based"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Rope Use "
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Rowing "
+    }, 
+    {
+        "misc": "SP", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Sculpting"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+1", 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Seamanship "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Seamstress/Tailor"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+2", 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Sign Language"
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Signalling "
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Silk Making"
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "CHARISMA", 
+        "type": "Singing"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "NA", 
+        "point": 1, 
+        "stat": "NA", 
+        "type": "Slow Respiration "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Smelting "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Sound Analysis "
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "CHARISMA", 
+        "type": "Sound Imitation"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -2, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Stonemasonry "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "STRENGTH", 
+        "type": "Swimming "
+    }, 
+    {
+        "misc": "", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Tattooing"
+    }, 
+    {
+        "misc": "OA", 
+        "modifier": -2, 
+        "point": 2, 
+        "stat": "WISDOM", 
+        "type": "Tea Ceremony "
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "point": 2, 
+        "stat": "CHARISMA", 
+        "type": "Voice Mimicry"
+    }, 
+    {
+        "misc": "Bb", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Weapon Improvisation "
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "WISDOM", 
+        "type": "Weather Sense"
+    }, 
+    {
+        "misc": "", 
+        "modifier": -1, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Weaving"
+    }, 
+    {
+        "misc": "CB", 
+        "modifier": "+2", 
+        "point": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Whistling/Humming"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": 0, 
+        "point": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Winemaking "
+    }
+]

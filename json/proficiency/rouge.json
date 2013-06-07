@@ -1,0 +1,359 @@
+[
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Ancient History"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Animal Noise "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Appraising "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Assimilation "
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Awareness"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Bartering"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Begging"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "NA ", 
+        "points": 2, 
+        "stat": "NA", 
+        "type": "Blind-Fighting "
+    }, 
+    {
+        "misc": "Pn", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Bureaucracy"
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Camouflage "
+    }, 
+    {
+        "misc": "AH", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Chicanery"
+    }, 
+    {
+        "misc": "CH", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Close-quarters Fighting"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "+1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Detect Signing "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Disguise "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "-2 ", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Enamour"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "CONSTITUTION", 
+        "type": "Endurance"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Escape "
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Fast-Talking "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Feign/Detect Sleep "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Forgery"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Gem Cutting"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "-3 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Giant Kite Flying"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Grooming "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Herbalism"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "CONSTITUTION", 
+        "type": "Hold Breath"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Hunting"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Information Gathering"
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "points": 1, 
+        "stat": "STR/CHA ", 
+        "type": "Intimidation "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Juggling "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "STRENGTH", 
+        "type": "Jumping"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Local History"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Locksmithing "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Navigation "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "-2 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Night Vision "
+    }, 
+    {
+        "misc": "Dw", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Pest Control "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "-3 ", 
+        "points": 2, 
+        "stat": "Varies", 
+        "type": "Quick Study"
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Reading Lips "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "+1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Reading/Writing"
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": "+2 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Riding, Horse Spec."
+    }, 
+    {
+        "misc": "AQ", 
+        "modifier": "+2 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Riding, Camel Spec."
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Set Snares "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Survival "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Tightrope Walking"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "INTELLIGENCE", 
+        "type": "Toxicology "
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Tracking "
+    }, 
+    {
+        "misc": "CT", 
+        "modifier": "Sp.", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Trailing "
+    }, 
+    {
+        "misc": "CR", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Trail Signs"
+    }, 
+    {
+        "misc": "", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Tumbling "
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": " 0 ", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Underclass "
+    }, 
+    {
+        "misc": "", 
+        "modifier": "-2 ", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Ventriloquism"
+    }, 
+    {
+        "misc": "Nj", 
+        "modifier": "-1 ", 
+        "points": 1, 
+        "stat": "DEXTERITY ", 
+        "type": "Water Walking"
+    }
+]

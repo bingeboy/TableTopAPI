@@ -1,0 +1,51 @@
+[
+    {
+        "misc": "Ps", 
+        "modifier": " -2", 
+        "points": 2, 
+        "stat": "DEXTERITY ", 
+        "type": "Gem Cutting"
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": " -1", 
+        "points": 2, 
+        "stat": "WISDOM", 
+        "type": "Harness Subconscious "
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": " -2", 
+        "points": 1, 
+        "stat": "CHARISMA", 
+        "type": "Hypnosis "
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": " +1", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Meditative Focus "
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": " +1", 
+        "points": 1, 
+        "stat": "INTELLIGENCE", 
+        "type": "Reading/Writing"
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": " -1", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Rejuvenation "
+    }, 
+    {
+        "misc": "Ps", 
+        "modifier": "0", 
+        "points": 1, 
+        "stat": "WISDOM", 
+        "type": "Religion "
+    }
+]
