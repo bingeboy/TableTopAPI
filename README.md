@@ -7,6 +7,16 @@ Rest API for table top gaming, character creation, dice rolls
 
 <h1>Overview</h1>
 
+<pre>
+app.get('/add2/languages', common.languages);
+app.get('/add2/races', common.races);
+app.get('/add2/alignment', common.alignment);
+app.get('/add2/stats', common.stats);
+app.get('/add2/playerClasses', common.playerClasses);
+app.get('/add2/roll-hp/:pcClass', dice.hitpoints);
+</pre>
+
+
 <p>
  Providing simple REST API for Dice rolls.
 
@@ -21,7 +31,7 @@ have high scores (15 and above).
 
 
 <code>
-/method1
+/add2/method1
 </code>
 
 <h4>Method II:</h4>
@@ -32,7 +42,7 @@ each pair, generally ensuring that your character does not have any really low a
 (but low ability scores are not all that bad anyway).
 
 <code>
-/method2
+/add2/method2
 </code>
 
 
@@ -42,10 +52,10 @@ Roll for Hit Points.
 Options specific for class. Note appending max will automatically return the max HP value for the class in the call.
 
 <code>
-/roll-hp/mage
+/add2/roll-hp/mage
  </code>
 
-/roll-hp/
+/add2/roll-hp/
 
 Max example:
 
@@ -54,7 +64,7 @@ Max example:
 <h6>/player</h6>
 Rolls method I then lets you know what classes are playable with the rolls.
 <code>
-/player
+/add2/player
 </code>
 
 
@@ -62,29 +72,29 @@ Rolls method I then lets you know what classes are playable with the rolls.
 
 Array of languages 
 <code>
-'/languages'
+'/add2/languages'
 </code>
 
 Array of Races
 <code>
-'/races'
+'/add2/races'
 </code>
 
 Alignment
 <code>
-'/alignment'
+'/add2/alignment'
 </code>
 Stats
 <code>
-'/stats', common.stats);
+'/add2/stats', common.stats);
 </code>
 
 Player Classes
 <code>
-'/playerClasses'
+'/add2/playerClasses'
 </code>
 <code>
-'/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
+'/add2/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
 </code>
 Also running list of other that classes based on these 3main classes.
 
@@ -97,69 +107,10 @@ Once you have the project running you can hit the server with XHR request to get
 <code>
 ://Example 
 var xhReq = new XMLHttpRequest();
-xhReq.open("GET", "http://localhost:3000/stats/3d6", false);
+xhReq.open("GET", "http://localhost:2001/add2/method1", false);
 xhReq.send(null);
 var serverResponse = xhReq.responseText;
 console.log(serverResponse);
-</code>
-<strong>Example Respondse
-<code>
-[
-  [
-    "strength",
-    [
-      4,
-      1,
-      6
-    ],
-    11
-  ],
-  [
-    "dexterity",
-    [
-      6,
-      1,
-      5
-    ],
-    12
-  ],
-  [
-    "constitution",
-    [
-      4,
-      6,
-      4
-    ],
-    14
-  ],
-  [
-    "intelligence",
-    [
-      4,
-      1,
-      5
-    ],
-    10
-  ],
-  [
-    "wisdom",
-    [
-      4,
-      3,
-      1
-    ],
-    8
-  ],
-  [
-    "charisma",
-    [
-      1,
-      3,
-      5
-    ],
-    9
-  ]
-]
 </code>
 
 The MIT License (MIT)

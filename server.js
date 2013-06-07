@@ -10,27 +10,27 @@ var app = express(),
 
 app.use(express.bodyParser());
 
-app.get('/languages', common.languages);
-app.get('/races', common.races);
-app.get('/alignment', common.alignment);
-app.get('/stats', common.stats);
-app.get('/playerClasses', common.playerClasses);
-app.get('/roll-hp/:pcClass', dice.hitpoints);
+app.get('/add2/languages', common.languages);
+app.get('/add2/races', common.races);
+app.get('/add2/alignment', common.alignment);
+app.get('/add2/stats', common.stats);
+app.get('/add2/playerClasses', common.playerClasses);
+app.get('/add2/roll-hp/:pcClass', dice.hitpoints);
 
 // Method I
-app.get('/method1', rollMethod.rollMethod1);
+app.get('/add2/method1', rollMethod.rollMethod1);
 
 //Method II
-app.get('/method2', rollMethod.rollMethod2);
+app.get('/add2/method2', rollMethod.rollMethod2);
 
 //Method III
-app.get('/method3', rollMethod.rollMethod3);
+app.get('/add2/method3', rollMethod.rollMethod3);
 
 //Method IV
-app.get('/method4', rollMethod.rollMethod4);
+app.get('/add2/method4', rollMethod.rollMethod4);
 
 // Player Character
-app.get('/player', playerCharacter.playerCharacterRequirements);
+app.get('/add2/player', playerCharacter.playerCharacterRequirements);
 
 // Hit this port response
 app.listen(port);
