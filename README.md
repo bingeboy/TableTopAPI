@@ -1,7 +1,8 @@
 TableTopAPI
 ===========
 
-Rest API for table top gaming, character creation, dice rolls
+Rest API for table top gaming, character creation, dice rolls. Currently Supporting AD&D 2.0 Roll MethodsI-IV, plus many other useful calls. Including a new addition of proficiency JSON files.
+
 
 <img src="http://jpmcgarrity.com/Git/readmeResources/incredible--advanced-dungeons-and-lawyers-d-fantasy-orcs-dungeons-and-dragons-role-playing-picture-image.jpg" height="300px" width="auto">
 
@@ -97,6 +98,10 @@ Player Classes
 '/add2/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
 </code>
 Also running list of other that classes based on these 3main classes.
+
+<h3>Proficiencies</h3>
+In the path ./json/proficiency/ are all the AD&D2.0 Proficies, organized by player class.
+
 
  
 <h2>Usage
