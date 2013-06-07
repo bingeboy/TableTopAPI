@@ -116,7 +116,6 @@ exports.rollMethod3 = function (req, res) {
         // declare vars scoped to init();
         var statsLength = statsMin.length
             , statsFinal = []
-            , statsFinal2 = []
             , obj
             , flushedRollResponse
             , rolls = 6  //number of rolls per rollset
