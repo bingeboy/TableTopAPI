@@ -132,7 +132,10 @@ exports.rollMethod3 = function (req, res) {
         console.log("statsFinal", statsFinal);
         //create object with stats
         obj = helper.merge2array(statsMin, statsFinal);
-        flushedRollResponse = { "Method III Character Rolls: (note: Assign the scores to your character's six abilities in any order you want)": obj };
+        flushedRollResponse = {
+                                "Method III Character Rolls: (note: Assign the scores to your character's six abilities in any order you want)": obj,
+                                "Sortable": "true"
+                              };
 
         res.send(flushedRollResponse);
 
@@ -180,7 +183,10 @@ exports.rollMethod4 = function (req, res) {
 
         //create object with stats
         obj = helper.merge2array(statsMin, statsFinal2);
-        flushedRollResponse = { "Method IV Character Rolls" : obj };
+        flushedRollResponse = {
+                                "Method IV Character Rolls" : obj,
+                                "Sortable" : "true"
+                              };
 
         res.send(flushedRollResponse);
 
