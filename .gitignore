@@ -1,11 +1,10 @@
-# Can ignore specific files
+#ignore specific files
 .DS_Store
 ToolKit.js
 
-# Use wildcards as well
+#wildcards
 *~
 *.swp
 
-
-# Can also ignore all directories and files in a directory.
+#ignore all directories and files in a directory.
 tmp/**/* 
