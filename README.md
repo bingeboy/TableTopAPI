@@ -9,12 +9,12 @@ Rest API for table top gaming, character creation, dice rolls. Currently Support
 <h1>Overview</h1>
 
 <pre>
-app.get('/add2/languages', common.languages);
-app.get('/add2/races', common.races);
-app.get('/add2/alignment', common.alignment);
-app.get('/add2/stats', common.stats);
-app.get('/add2/playerClasses', common.playerClasses);
-app.get('/add2/roll-hp/:pcClass', dice.hitpoints);
+app.get('/languages', common.languages);
+app.get('/races', common.races);
+app.get('/alignment', common.alignment);
+app.get('/stats', common.stats);
+app.get('/playerClasses', common.playerClasses);
+app.get('/roll-hp/:pcClass', dice.hitpoints);
 </pre>
 
 
@@ -32,7 +32,7 @@ have high scores (15 and above).
 
 
 <code>
-/add2/method1
+/method1
 </code>
 
 <h4>Method II:</h4>
@@ -43,7 +43,7 @@ each pair, generally ensuring that your character does not have any really low a
 (but low ability scores are not all that bad anyway).
 
 <code>
-/add2/method2
+/method2
 </code>
 
 
@@ -53,19 +53,20 @@ Roll for Hit Points.
 Options specific for class. Note appending max will automatically return the max HP value for the class in the call.
 
 <code>
-/add2/roll-hp/mage
+/roll-hp/mage
  </code>
 
-/add2/roll-hp/
+/roll-hp/
 
 Max example:
+<code>/roll-hp/max</code>
 
 <h4>Other API Calls</h4>
 
 <h6>/player</h6>
 Rolls method I then lets you know what classes are playable with the rolls.
 <code>
-/add2/player
+/player
 </code>
 
 
@@ -73,29 +74,29 @@ Rolls method I then lets you know what classes are playable with the rolls.
 
 Array of languages 
 <code>
-'/add2/languages'
+'/languages'
 </code>
 
 Array of Races
 <code>
-'/add2/races'
+'/races'
 </code>
 
 Alignment
 <code>
-'/add2/alignment'
+'/alignment'
 </code>
 Stats
 <code>
-'/add2/stats', common.stats);
+'/stats', common.stats);
 </code>
 
 Player Classes
 <code>
-'/add2/playerClasses'
+'/playerClasses'
 </code>
 <code>
-'/add2/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
+'/roll-hp/:pcClass' Options: fighter | rouge | wizard : max
 </code>
 Also running list of other that classes based on these 3main classes.
 
@@ -112,7 +113,7 @@ Once you have the project running you can hit the server with XHR request to get
 <code>
 ://Example 
 var xhReq = new XMLHttpRequest();
-xhReq.open("GET", "http://localhost:2001/add2/method1", false);
+xhReq.open("GET", "http://localhost:2001/method1", false);
 xhReq.send(null);
 var serverResponse = xhReq.responseText;
 console.log(serverResponse);
