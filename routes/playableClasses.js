@@ -3,11 +3,18 @@
 
 exports.playableClasses = function(stats) {
 
-    var classes = [];
+    var classes = []
+    , raceModifiers = {
+        Dwarf : "Dwarf (+1 Constitution, -1 Charisma)",
+        Elf   : "Elf (+1 Dexterity, -1 Constitution)",
+        Gnome : "Gnome (+1 Intelligence, -1 Wisdom)",
+        Halfling : "Halfling (+1 Dexterity, -1 Strength)"
+    }
+    , allraces =  {"Allowed Races":["Human", raceModifiers.Elf, "Half-Elf", raceModifiers.Dwarf, raceModifiers.Gnome, "Halfling"]}
 
     //fighter
     if(stats.strength >= 9){
-        classes.push("fighter", {"Allowed Races":["Human", "Elf ", "Half-Elf", "Dwarf", "Gnome", "Halfling"]});
+        classes.push("fighter", allraces);
     }
 
     //paladin
@@ -17,17 +24,17 @@ exports.playableClasses = function(stats) {
 
     //ranger
     if(stats.strength >= 13 && stats.dexterity >= 13 && stats.constitution >= 14 && stats.wisdom >= 14) {
-        classes.push("ranger", {"Allowed Races":["Human", "Elf", "Half-elf"]});
+        classes.push("ranger", {"Allowed Races":["Human", raceModifiers.Elf, "Half-elf"]});
     }
 
     //illusionist
     if(stats.dexterity >= 16) {
-        classes.push("illusionist", {"Allowed Races" : ["Human", "Gnome"]});
+        classes.push("illusionist", {"Allowed Races" : ["Human", raceModifiers.Gnome]});
     }
 
     //cleric
     if(stats.wisdom >= 9) {
-        classes.push("cleric", {"Allowed Races":["Human", "Elf ", "Half-Elf", "Dwarf", "Gnome", "Halfling"]});
+        classes.push("cleric", allraces);
     }
 
     //druid
@@ -37,7 +44,7 @@ exports.playableClasses = function(stats) {
 
     //thief
     if(stats.dexterity >= 9){
-        classes.push("thief",  {"Allowed Races":["Human", "Elf ", "Half-Elf", "Dwarf", "Gnome", "Halfling"]});
+        classes.push("thief", allraces);
     }
 
     //return arrray of all possible classes
