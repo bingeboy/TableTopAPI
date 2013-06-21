@@ -8,8 +8,8 @@
 		"debug": "nodemon --debug server.js"
     },
     "dependencies": {
-        "express": "3.x",
-		"nodemon" : "*",
-		"node-inspector" : "*"
+        "express": "*",
+	"nodemon" : "*",
+	"node-inspector" : "*"
     }
 }

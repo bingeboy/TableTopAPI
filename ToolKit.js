@@ -25,7 +25,7 @@
 Fighter
 Ability Requirements: Strength 9,
 Prime Requisite: Strength,
-Allowed Races: Al
+Allowed Races: All
 
 Paladin
 Ability Requirements: Strength 12, Constitution 9, Wisdom 13, Charisma 17,
@@ -58,6 +58,13 @@ Prime Requisite: Dexterity
 Races Allowed: All
 
 */
+
+
+
+Dwarf +1Constitution; -1Charisma
+Elf   +1 Dexterity; -1 Constitution
+Gnome +1Intelligence; -1Wisdom
+Halfling +1 Dexterity; -1 Strength
 
 
 function playerCharacterRequirements(){

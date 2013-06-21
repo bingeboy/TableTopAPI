@@ -2,6 +2,7 @@
  @Description: Default Rolls for making Player Characters
  */
 var helper = require('./helper.js');
+var playable = require('./playableClasses.js');
 
 /*
   @Globals: setup the character creation dice to roll and stats to roll. Override if needed.
@@ -48,7 +49,12 @@ exports.rollMethod1 = function(req, res){
 
         //create object with stats
         obj = helper.merge2array(statsMin, statsFinal);
-        flushedRollResponse = { "Method I Character Rolls:": obj };
+
+        flushedRollResponse = {
+            "Method I Character Rolls:": obj,
+            "Playable Classes" : playable.playableClasses(obj)
+        };
+
 
         res.send(flushedRollResponse);
 
@@ -88,15 +94,17 @@ exports.rollMethod2 = function (req, res) {
                 statsFinal2.push(result[0][i])
             } else {
                 statsFinal2.push(result[1][i]);
-            }
-            ;
+            };
 
             console.log(statsFinal2);
         }
 
         //create object with stats
         obj = helper.merge2array(statsMin, statsFinal2);
-        flushedRollResponse = { "Method II Character Rolls": obj };
+        flushedRollResponse = {
+            "Method II Character Rolls": obj,
+            "Playable Classes" : playable.playableClasses(obj)
+        };
 
         res.send(flushedRollResponse);
 
@@ -133,7 +141,8 @@ exports.rollMethod3 = function (req, res) {
         obj = helper.merge2array(statsMin, statsFinal);
         flushedRollResponse = {
                                 "Method III Character Rolls: (note: Assign the scores to your character's six abilities in any order you want)": obj,
-                                "Sortable": "true"
+                                "Sortable": "true",
+                                "Playable Classes (These needs to be called again if stats are sorted)" : playable.playableClasses(obj)
                               };
 
         res.send(flushedRollResponse);
@@ -184,7 +193,8 @@ exports.rollMethod4 = function (req, res) {
         obj = helper.merge2array(statsMin, statsFinal2);
         flushedRollResponse = {
                                 "Method IV Character Rolls" : obj,
-                                "Sortable" : "true"
+                                "Sortable" : "true",
+                                "Playable Classes (These needs to be called again if stats are sorted)" : playable.playableClasses(obj)
                               };
 
         res.send(flushedRollResponse);
