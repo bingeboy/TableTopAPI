@@ -3,29 +3,6 @@
  */
 
 
-// basic calc functions
-// todo: make AMD pattern? if it matters to anyone. - BB
-//var calc = {};
-//
-//
-//function calc.add(x,y){
-//    return x+y;
-//}
-//
-//function calc.subract(x,y){
-//    return x-y;
-//}
-//
-//function calc.multiply(x,y){
-//    return x*y;
-//}
-//
-//function calc.divide(x,y){
-//    return x/y;
-//}
-
-
-
 // @Description: starting hp for character
 
 exports.hitpoints = function(req, res){
@@ -41,10 +18,6 @@ exports.hitpoints = function(req, res){
 
      */
 
-    /*
-        todo: this method is a dup of the Roll.api ,,, temp fix please
-              make other method public and excessable to all routes.  - BB
-     */
 
     var diceToRollHP = function( numberOfRolls, sidedDie ) {
         var diceSet = [];

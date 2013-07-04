@@ -1,8 +1,8 @@
 /*
  @Description: Default Rolls for making Player Characters
  */
-var helper = require('./helper.js');
-var playable = require('./playableClasses.js');
+var helper = require('./helper.js')
+    , playable = require('./playableClasses.js');
 
 /*
   @Globals: setup the character creation dice to roll and stats to roll. Override if needed.
