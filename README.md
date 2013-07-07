@@ -6,20 +6,24 @@ Rest API for table top gaming, character creation, dice rolls. Currently Support
 
 <img src="http://jpmcgarrity.com/Git/readmeResources/incredible--advanced-dungeons-and-lawyers-d-fantasy-orcs-dungeons-and-dragons-role-playing-picture-image.jpg" height="300px" width="auto">
 
-<h1>Overview</h1>
+#Overview
 
-<pre>
+```
 app.get('/languages', common.languages);
 app.get('/races', common.races);
 app.get('/alignment', common.alignment);
 app.get('/stats', common.stats);
 app.get('/playerClasses', common.playerClasses);
 app.get('/roll-hp/:pcClass', dice.hitpoints);
-</pre>
+```
 
+Providing simple REST API for Dice rolls.
 
-<p>
- Providing simple REST API for Dice rolls.
+##Installation
+```
+$ npm install tabletop-api
+```
+
 
 <h2>Method I Stat Rolls</h2>
 
@@ -30,10 +34,9 @@ Repeat this for Dexterity, Constitution, Intelligence, Wis- dom, and Charisma, i
 This method gives a range of scores from 3 to 18, with most results in the 9 to 12 range. Only a few characters
 have high scores (15 and above).
 
-
-<code>
+```
 /method1
-</code>
+```
 
 <h4>Method II:</h4>
 <p>
@@ -42,30 +45,32 @@ Dexterity, Constitution, Intelligence, Wisdom, and Charisma. This al- lows you t
 each pair, generally ensuring that your character does not have any really low ability scores
 (but low ability scores are not all that bad anyway).
 
-<code>
+```
 /method2
-</code>
-
+```
 
  <h4>Calls For Basic Character Info</h4>
 
 Roll for Hit Points.
 Options specific for class. Note appending max will automatically return the max HP value for the class in the call.
 
-<code>
+```
 /roll-hp/mage
- </code>
-
+``` 
+```
 /roll-hp/
+```
 
 Max example:
-<code>/roll-hp/max</code>
+```
+/roll-hp/magemax
+```
 
 <h4>Other API Calls</h4>
 
 <h6>/player</h6>
 Rolls method I then lets you know what classes are playable with the rolls.
-<code>
+
 /player
 </code>
 
@@ -73,15 +78,13 @@ Rolls method I then lets you know what classes are playable with the rolls.
 <h6>Hit point rolls</h6>
 
 Array of languages 
-<code>
-'/languages'
-</code>
-
+```
+/languages
+```
 Array of Races
-<code>
-'/races'
-</code>
-
+```
+/races
+```
 Alignment
 <code>
 '/alignment'
@@ -105,19 +108,9 @@ In the path ./json/proficiency/ are all the AD&D2.0 Proficies, organized by play
 
 
  
-<h2>Usage
-<p>
+##Usage
 Once you have the project running you can hit the server with XHR request to get JSON response
 
-<strong>Example Request
-<code>
-://Example 
-var xhReq = new XMLHttpRequest();
-xhReq.open("GET", "http://localhost:2001/method1", false);
-xhReq.send(null);
-var serverResponse = xhReq.responseText;
-console.log(serverResponse);
-</code>
 
 The MIT License (MIT)
 
