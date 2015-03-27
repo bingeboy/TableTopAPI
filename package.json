@@ -4,12 +4,10 @@
     "version": "0.0.1",
     "private": true,
     "scripts":{
-        "start":"nodemon server.js",
-		"debug": "nodemon --debug server.js"
+        "start":"node index",
+        "debug": "node --debug server.js"
     },
     "dependencies": {
-        "express": "*",
-	"nodemon" : "*",
-	"node-inspector" : "*"
+      "express": "4.12.3"
     }
 }
