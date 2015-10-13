@@ -1,12 +1,7 @@
-/*
-
-  @Description: old code that's was in use and will have potential in the future of the api.
-
-*/
+'use strict';
 
 /*
- @Character stuff  for creation:
-
+ @description Character stuff  for creation:
 
 Fighter
 Ability Requirements: Strength 9,
@@ -43,15 +38,12 @@ Ability Requirement: Dexterity 9
 Prime Requisite: Dexterity
 Races Allowed: All
 
-*/
-
-
-
 Dwarf +1Constitution; -1Charisma
 Elf   +1 Dexterity; -1 Constitution
 Gnome +1Intelligence; -1Wisdom
 Halfling +1 Dexterity; -1 Strength
 
+*/
 
 function playerCharacterRequirements(){
 

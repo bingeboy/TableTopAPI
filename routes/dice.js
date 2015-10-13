@@ -1,23 +1,19 @@
 /*
  *  Common Dice Rolls
+ *  @Description: starting hp for character
  */
-
-
-// @Description: starting hp for character
 
 exports.hitpoints = function(req, res){
     console.log(req.params.pcClass);
-    /*
-        needs to accept class which will handle modifier and dice roll
-
-     Level 1
-      Fighter / Paladin / Ranger d10
-      Cleric Druid d8
-      Thief / Bard d6
-      Mage and other similar types... d4
-
-     */
-
+    /**
+     * @note needs to accept class which will handle modifier and dice roll
+     *
+     * Level 1
+     * Fighter / Paladin / Ranger d10
+     * Cleric Druid d8
+     * Thief / Bard d6
+     * Mage and other similar types... d4
+     **/
 
     var diceToRollHP = function( numberOfRolls, sidedDie ) {
         var diceSet = [];
@@ -32,8 +28,8 @@ exports.hitpoints = function(req, res){
 
     //rolls
     var dice1d10 = diceToRollHP(1,10)
-      , dice1d6  = diceToRollHP(1,6)
-      , dice1d4  = diceToRollHP(1,4);
+       , dice1d6 = diceToRollHP(1,6)
+       , dice1d4 = diceToRollHP(1,4);
 
     switch (pcClass) {
         case "fighter":
@@ -75,12 +71,9 @@ exports.hitpoints = function(req, res){
             console.log("default fired... lets return error on class defined.")
     }
 
-
-
     var data = {
 
     };
 
     res.send(data);
 };
-

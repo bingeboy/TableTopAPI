@@ -47,29 +47,3 @@ exports.stats = function(req, res){
 
     res.send(data);
 };
-
-//// users index
-//exports.index = function(req, res){
-//    Users.find({ }, function(err, docs){
-//        res.render('user/index', {
-//            users: docs, //mongo data
-//            title: "User List"
-//        });
-//    });
-//
-//
-//};
-//
-////creates page for new users
-//exports.new = function(req, res){
-//    res.render('user/newUser', {
-//        title: 'Create a New user'
-//    });
-//};
-//
-//// users show
-//exports.show = function(req, res){
-//    res.render('users/show', {
-//        title: 'Show'
-//    });// { user: req.users });
-//};

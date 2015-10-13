@@ -1,3 +1,16 @@
+'use strict';
+
+
+function DiceToRoll(numberOfRolls, sidedDie ) {
+    var diceSet = [];
+    for (var i = 0; i < numberOfRolls; i++ ){
+        var singleDieRoll = 1 + Math.floor(Math.random() * sidedDie);
+        diceSet.push(singleDieRoll);
+    }
+
+    return diceSet;
+}
+
 exports.Roll = function(req, res){
 
     var init = function(sidedDice,numberOfDice){
@@ -6,7 +19,7 @@ exports.Roll = function(req, res){
             , newArray = [];
 
         for (var key in stats.obj) {
-            var roll = new diceToRoll(sidedDice,numberOfDice);
+            var roll = new DiceToRoll(sidedDice, numberOfDice);
             var rolledTotal = this.rollTotal(roll);
             newArray.push([key, (roll), (rolledTotal)]);
         }
@@ -18,15 +31,6 @@ exports.Roll = function(req, res){
 };
 
 
-function diceToRoll( numberOfRolls, sidedDie ) {
-    var diceSet = [];
-    for (var i = 0; i < numberOfRolls ; i++ ){
-        var singleDieRoll = 1 + Math.floor(Math.random() * sidedDie);
-        diceSet.push(singleDieRoll);
-    }
-
-    return diceSet;
-}
 
 var rollTotal = function(x) {
     var total = 0
@@ -40,7 +44,7 @@ var rollTotal = function(x) {
             troll: "troll",
             troll2: "troll2"
         }
-    }else{
+    } else {
         playableClasses = {
             human: "troll",
             human2: "troll2"
@@ -81,5 +85,5 @@ var stats = function(diceRolls, diceTotal){
 
             }
         }
-    }; //return
+    };
 };
